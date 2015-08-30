@@ -10,7 +10,7 @@ CONFIRMED
 PLAUSIBLE
  - Custom format export + Python import script to Blender that not only stores model and texture, but ANIMATION. (File format: *.XMDL)
 
-PPLANNED BUT NOT GOING TO BE IMPLEMENTED
+PLANNED BUT NOT GOING TO BE IMPLEMENTED
  - Compact and user friendly model + animation editor in the program
  - Export VALVE .MDL files for usage in Source Film-Maker
 
