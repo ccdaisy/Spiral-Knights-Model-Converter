@@ -3,6 +3,7 @@ The new and improved version of "Spiral Spy XML to OBJ"!
 
 #// PLANS
 This is the list of what I plan to improve or add in this project.
+
 CONFIRMED
  - Project revamp that allows save/open dialog as opposed to the terrible method of text copy/paste
  - Project revamp that allows directly importing .DAT files and saving as .OBJ + Textures
