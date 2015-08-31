@@ -15,11 +15,8 @@ This is the list of what I plan to improve or add in this project.
  - Project revamp that allows directly importing .DAT files and saving as .OBJ + Textures
 
 *PLAUSIBLE*
- - Custom format export + Python import script to Blender that not only stores model and texture, but ANIMATION. (File format: *.XMDL)¹
+ - Custom format export + Python import script to Blender that not only stores model and texture, but ANIMATION. (File format: *.XMDL)
 
 *PLANNED BUT NOT GOING TO BE IMPLEMENTED*
  - Compact and user friendly model + animation editor in the program
  - Export VALVE .MDL files for usage in Source Film-Maker
- 
-
-¹ - I've been looking into the .DAT files like crazy for the past day. They *MIGHT* be .FBX files with a byte offset, and if they are I won't have to use .XMDL
