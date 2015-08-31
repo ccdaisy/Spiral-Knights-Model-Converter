@@ -20,3 +20,6 @@ This is the list of what I plan to improve or add in this project.
 *PLANNED BUT NOT GOING TO BE IMPLEMENTED*
  - Compact and user friendly model + animation editor in the program
  - Export VALVE .MDL files for usage in Source Film-Maker
+
+#// TO DO LIST AND IDEAS
+ - Should I try to copy in Three Rings's code into my project? This would have to be quite hacky, but it may be what I have to do.
