@@ -7,6 +7,11 @@ The new and improved version of "Spiral Spy XML to OBJ"!
  - Improved file reading (Slightly faster reading) + Save/Open dialog (ONLY WORKS WITH XML. TUTORIAL IN RELEASES!)
  - Preparations for .DAT reading (Work has been sorta started? I've been looking into how the files work.)
 
+#// ISSUES
+ - Schoolwork
+ - .DAT Model format understanding
+ - Work ethic
+
 #// PLANS
 This is the list of what I plan to improve or add in this project.
 
@@ -17,7 +22,7 @@ This is the list of what I plan to improve or add in this project.
 *PLAUSIBLE*
  - Custom format export + Python import script to Blender that not only stores model and texture, but ANIMATION. (File format: *.XMDL)
 
-*PLANNED BUT NOT GOING TO BE IMPLEMENTED*
+*CONSIDERED BUT NOT GOING TO BE IMPLEMENTED*
  - Compact and user friendly model + animation editor in the program
  - Export VALVE .MDL files for usage in Source Film-Maker
 
