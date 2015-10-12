@@ -7,7 +7,7 @@ The new and improved version of "Spiral Spy XML to OBJ"!
  - Improved file reading (Slightly faster reading) + Save/Open dialog (ONLY WORKS WITH XML. TUTORIAL IN RELEASES!)
  - Preparations for .DAT reading (Work has been sorta started? I've been looking into how the files work.)
 
-#// ISSUES
+#// ISSUES THAT HINDER WORK
  - Schoolwork
  - .DAT Model format understanding
  - Work ethic
@@ -26,5 +26,6 @@ This is the list of what I plan to improve or add in this project.
  - Compact and user friendly model + animation editor in the program
  - Export VALVE .MDL files for usage in Source Film-Maker
 
-#// TO DO LIST AND IDEAS
+#// TO DO LIST, IDEAS, AND NOTE THINGIES
  - Should I try to copy in Three Rings's code into my project? This would have to be quite hacky, but it may be what I have to do.
+ - So I've realized that the .DAT files are practically "embedded" into the code - This is to say that the code reads it and handles it in itself. So yes, I need to use their own code to convert this. Shiiiiiiiiiiiiiiiiiiiiiiiiiiii....
