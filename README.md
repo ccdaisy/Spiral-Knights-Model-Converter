@@ -20,7 +20,7 @@ This is the list of what I plan to improve or add in this project.
  - Project revamp that allows directly importing .DAT (And .PNG texture) files and saving as .OBJ + Textures
 
 *PLAUSIBLE*
- - Custom format export + Python import script to Blender that not only stores model and texture, but ANIMATION. (File format: *.XMDL)
+ - Export AutoDesk .FBX format for model, texture, and animation. (This would be easier than the .XMDL)
 
 *CONSIDERED BUT NOT GOING TO BE IMPLEMENTED*
  - Compact and user friendly model + animation editor in the program
@@ -28,4 +28,4 @@ This is the list of what I plan to improve or add in this project.
 
 #// TO DO LIST, IDEAS, AND NOTE THINGIES
  - Should I try to copy in Three Rings's code into my project? This would have to be quite hacky, but it may be what I have to do.
- - So I've realized that the .DAT files are practically "embedded" into the code - This is to say that the code reads it and handles it in itself. So yes, I need to use their own code to convert this. Shiiiiiiiiiiiiiiiiiiiiiiiiiiii....
+ - So I've realized that the .DAT files are practically "embedded" into the code - This is to say that the code reads it and handles it in itself. So yes, I need to use their own code to convert this. Shiiiiiiiiiiiiiiiiiiiiiiiiiiii.... (I've tried to implement the code 3 times but it continues to spam me with errors.)
