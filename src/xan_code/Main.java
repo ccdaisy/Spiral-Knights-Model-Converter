@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 1995, 2008, Oracle and/or its affiliates. All rights reserved.
  *
@@ -37,9 +36,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 import javax.swing.*;
-import javax.swing.filechooser.*;
-import javax.swing.filechooser.FileFilter;
 
+import org.apache.commons.io.FilenameUtils;
+
+@SuppressWarnings("serial")
 public class Main extends JPanel 
                              implements ActionListener {
     static private final String newline = "\n";
@@ -131,20 +131,18 @@ public class Main extends JPanel
  
             if (returnVal == JFileChooser.APPROVE_OPTION) {
                 File file = fc.getSelectedFile();
-                loadedfile = file;
-                //This is where a real application would open the file.
                 log.append("Opened \"" + file.getName() + "\"." + newline);
+                loadedfile = file;
                 //Handle file here!
                 
-                extension = "";
+                extension = FilenameUtils.getExtension(file.getPath());
 
                 int i = file.getName().lastIndexOf('.');
                 if (i > 0) {
-                    extension = file.getName().substring(i+1);
                     Name = file.getName().substring(0, i);
                 }
-                System.out.println(extension);
-				objf = HandleFiles.convert(file, true);
+                
+				objf = HandleFiles.convert(file, (extension == "xml"));
 				log.append("Ready to export!" + newline);
                 //Done handling file
             } else {

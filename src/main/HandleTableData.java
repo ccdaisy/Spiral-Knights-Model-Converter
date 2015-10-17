@@ -102,8 +102,6 @@ public class HandleTableData {
 			}
 		} else {
 			int TC = count(obj, "v");
-			int x = 1;
-			int y = 1;
 			for (int i = 0; i <= TC; i++) {
 				if (i % 3 == 0 && i > 0) {
 					int a = i-2;

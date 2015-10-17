@@ -17,7 +17,8 @@ import main.BeginConversion; //Import the conversion code. Returns a string base
 
 public class HandleFiles {
 	static BeginConversion converter = new BeginConversion();
-	
+	static final String NotReadyText = "Remember that .DAT exporting is not ready yet! Please use Spiral Spy (http://spiral.onyxbits.de/download) to select your desired model and convert it to an XML.";
+	@SuppressWarnings("static-access")
 	public static String convert(File file, boolean isXML) {
 		if (isXML) {
 			String xml = "";
@@ -36,7 +37,7 @@ public class HandleFiles {
 			}
 			return obj;
 		} else {
-			return "";
+			return NotReadyText;
 		}
 	}
 }
