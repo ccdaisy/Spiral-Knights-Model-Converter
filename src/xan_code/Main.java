@@ -44,17 +44,20 @@ public class Main extends JPanel
                              implements ActionListener {
     static private final String newline = "\n";
     JButton openButton, saveButton;
-    JTextArea log;
+    protected static JTextArea log;
     JFileChooser fc;
     
     OpenFileFilter obj = new OpenFileFilter("obj", ".OBJ (Wavefront OBJ)");
     OpenFileFilter dat = new OpenFileFilter("dat", ".DAT (Binary Spiral Knights model)");
     OpenFileFilter xml = new OpenFileFilter("xml", ".XML (SpiralSpy XML export)");
-    OpenFileFilter xmdl = new OpenFileFilter("xmdl", ".XMDL (Xanthicdragon Model (For Blender importer))");
+    OpenFileFilter fbx = new OpenFileFilter("fbx", ".FBX (AutoDesk FBX)");
     
     String objf;
     String extension;
     String Name;
+    String EX_EXT;
+    
+    boolean isXML;
     
     File convertedFile;
     
@@ -91,7 +94,7 @@ public class Main extends JPanel
  
         //Create the save button.  We use the image from the JLF
         //Graphics Repository (but we extracted it from the jar).
-        saveButton = new JButton("Save as OBJ....",
+        saveButton = new JButton("Save as....",
                                  createImageIcon(""));
         saveButton.addActionListener(this);
  
@@ -118,13 +121,23 @@ public class Main extends JPanel
 		}
 
     }
+    
+    public void setXML(String ext) {
+    	 byte[] strb = ext.getBytes();
+    	 for (int i = 0; i < strb.length; i++) {
+    		 isXML = (strb[i] == 'x');
+    		 if (isXML) {
+    			 break;
+    		 }
+    	 }
+    }
  
     public void actionPerformed(ActionEvent e) {
  
         //Handle open button action.
         if (e.getSource() == openButton) {
         	fc.removeChoosableFileFilter(obj);
-        	//fc.removeChoosableFileFilter(xmdl);
+        	//fc.removeChoosableFileFilter(fbx);
         	fc.addChoosableFileFilter(dat);
         	fc.addChoosableFileFilter(xml);
             int returnVal = fc.showOpenDialog(Main.this);
@@ -136,13 +149,18 @@ public class Main extends JPanel
                 //Handle file here!
                 
                 extension = FilenameUtils.getExtension(file.getPath());
-
                 int i = file.getName().lastIndexOf('.');
                 if (i > 0) {
                     Name = file.getName().substring(0, i);
                 }
-                
-				objf = HandleFiles.convert(file, (extension == "xml"));
+                setXML(extension);
+                if (isXML) {
+                	EX_EXT = ".obj";
+                } else {
+                	EX_EXT = ".txt";
+                }
+                System.out.println(isXML);
+				objf = HandleFiles.convert(file, isXML);
 				log.append("Ready to export!" + newline);
                 //Done handling file
             } else {
@@ -155,13 +173,13 @@ public class Main extends JPanel
         	fc.removeChoosableFileFilter(dat);
         	fc.removeChoosableFileFilter(xml);
         	fc.addChoosableFileFilter(obj);
-        	//fc.addChoosableFileFilter(xmdl);
+        	//fc.addChoosableFileFilter(fbx);
             int returnVal = fc.showSaveDialog(Main.this);
             if (returnVal == JFileChooser.APPROVE_OPTION) {
                 File location = fc.getCurrentDirectory();
                 //This is where a real application would save the file.
-                log.append("Saving: " + loadedfile.getName() + " to " + location.getName() + "." + newline);
-            	String path = location.getPath() + "\\" + Name + ".obj";
+                log.append("Saving: " + FilenameUtils.removeExtension(loadedfile.getName()) + EX_EXT + " to " + location.getName() + "." + newline);
+            	String path = location.getPath() + "\\" + Name + EX_EXT;
             	System.out.println(path);
 				convertedFile = new File(path);
 				writeFile(convertedFile, objf);

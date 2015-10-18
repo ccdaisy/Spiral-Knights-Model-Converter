@@ -3,9 +3,7 @@ package xan_code;
 /*
  * Designed by Brent Duanne
  * 
- * Purpose: Determine file extension and run it through the code to move it to an OBJ.
- * 
- * Should I utilize the other code for this one? It would be very hacky, but would probably work.
+ * Purpose: Determine file extension and run it through the code to move it to an OBJ or ASCII AutoDesk FBX.
  */
 
 import java.io.File;
@@ -13,11 +11,14 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
+import org.apache.commons.io.FileUtils;
+
 import main.BeginConversion; //Import the conversion code. Returns a string based on the file
+import xan_code.dathandler.ReadBinary;
 
 public class HandleFiles {
 	static BeginConversion converter = new BeginConversion();
-	static final String NotReadyText = "Remember that .DAT exporting is not ready yet! Please use Spiral Spy (http://spiral.onyxbits.de/download) to select your desired model and convert it to an XML.";
+	static String DatText = "";
 	@SuppressWarnings("static-access")
 	public static String convert(File file, boolean isXML) {
 		if (isXML) {
@@ -26,18 +27,21 @@ public class HandleFiles {
 			try {
 				xml = new Scanner(file).useDelimiter("\\Z").next();
 				obj = converter.BeginConvert(xml);
-			} catch (FileNotFoundException e) {
-				// TODO Auto-generated catch block
+			} catch (FileNotFoundException e) { //This should never happen.
 				obj = "";
 				e.printStackTrace();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
+			} catch (IOException e) { //This shouldn't either.
 				obj = "";
 				e.printStackTrace();
 			}
 			return obj;
 		} else {
-			return NotReadyText;
+			try {
+				DatText = ReadBinary.Read(FileUtils.openInputStream(file));
+			} catch (IOException e) {
+				DatText = "An unexpected error has occured while reading UTF Data from the .DAT!";
+			}
+			return DatText;
 		}
 	}
 }
