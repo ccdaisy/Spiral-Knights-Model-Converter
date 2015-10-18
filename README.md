@@ -27,5 +27,4 @@ This is the list of what I plan to improve or add in this project.
  - Export VALVE .MDL files for usage in Source Film-Maker
 
 #// TO DO LIST, IDEAS, AND NOTE THINGIES
- - Should I try to copy in Three Rings's code into my project? This would have to be quite hacky, but it may be what I have to do.
- - So I've realized that the .DAT files are practically "embedded" into the code - This is to say that the code reads it and handles it in itself. So yes, I need to use their own code to convert this. Shiiiiiiiiiiiiiiiiiiiiiiiiiiii.... (I've tried to implement the code 3 times but it continues to spam me with errors.)
+ - Nothing now. I won't be able to explain well how it works, but I have it!
