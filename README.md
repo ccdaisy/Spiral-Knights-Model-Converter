@@ -4,8 +4,8 @@ The new and improved version of "Spiral Spy XML to OBJ"!
 
 
 #// WORK SO FAR
- - Improved file reading (Slightly faster reading) + Save/Open dialog (ONLY WORKS WITH XML. TUTORIAL IN RELEASES!)
- - Preparations for .DAT reading (Work has been sorta started? I've been looking into how the files work.)
+ - Improved file reading (Slightly faster reading) + Save/Open dialog (ONLY WORKS WITH XML RIGHT NOW. TUTORIAL IN RELEASES!)
+ - Preparations for .DAT reading
 
 #// ISSUES THAT HINDER WORK
  - Schoolwork
@@ -16,11 +16,11 @@ The new and improved version of "Spiral Spy XML to OBJ"!
 This is the list of what I plan to improve or add in this project.
 
 *CONFIRMED*
- - Project revamp that allows save/open dialog as opposed to the terrible method of text copy/paste
- - Project revamp that allows directly importing .DAT (And .PNG texture) files and saving as .OBJ + Textures
+ - [Done!] Project revamp that allows save/open dialog as opposed to the terrible method of text copy/paste 
+ - [In progress...] Project revamp that allows directly importing .DAT (And .PNG texture) files and saving as .OBJ + Textures
 
 *PLAUSIBLE*
- - Export AutoDesk .FBX format for model, texture, and animation. (This would be easier than the .XMDL)
+ - [Currently inactive] Export AutoDesk .FBX format for model, texture, and animation. (This would be easier than the .XMDL)
 
 *CONSIDERED BUT NOT GOING TO BE IMPLEMENTED*
  - Compact and user friendly model + animation editor in the program
