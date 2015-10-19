@@ -143,8 +143,8 @@ public class Main extends JPanel
             int returnVal = fc.showOpenDialog(Main.this);
  
             if (returnVal == JFileChooser.APPROVE_OPTION) {
+            	log.append("Opened file. Reading..." + newline);
                 File file = fc.getSelectedFile();
-                log.append("Opened \"" + file.getName() + "\"." + newline);
                 loadedfile = file;
                 //Handle file here!
                 
@@ -161,7 +161,7 @@ public class Main extends JPanel
                 }
                 System.out.println(isXML);
 				objf = HandleFiles.convert(file, isXML);
-				log.append("Ready to export!" + newline);
+				log.append("Ready to export as OBJ!" + newline);
                 //Done handling file
             } else {
                 //log.append("Open command cancelled by user." + newline);
