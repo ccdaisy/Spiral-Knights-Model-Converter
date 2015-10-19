@@ -1,18 +1,18 @@
-# Spiral Knights DAT to OBJ
+# Spiral Knights Model to OBJ
 The new and improved version of "Spiral Spy XML to OBJ"!
 
 
 
-#// WORK SO FAR
+#WORK SO FAR
  - Improved file reading (Slightly faster reading) + Save/Open dialog (ONLY WORKS WITH XML RIGHT NOW. TUTORIAL IN RELEASES!)
  - Preparations for .DAT reading
 
-#// ISSUES THAT HINDER WORK
+#ISSUES THAT HINDER WORK
  - Schoolwork
  - .DAT Model format understanding
  - Work ethic
 
-#// PLANS
+#PLANS
 This is the list of what I plan to improve or add in this project.
 
 *CONFIRMED*
@@ -26,5 +26,5 @@ This is the list of what I plan to improve or add in this project.
  - Compact and user friendly model + animation editor in the program
  - Export VALVE .MDL files for usage in Source Film-Maker
 
-#// TO DO LIST, IDEAS, AND NOTE THINGIES
- - Nothing now. I won't be able to explain well how it works, but I have it!
+#WHAT IS A SPIRAL KNIGHTS .DAT AND HOW DOES IT WORK?
+ The Spiral Knights .DAT model is Three Rings's way of packaging models, animations, and some scripts. It is, in fact, a Java code that was merely exported with a FileOutputStream! There is a catch, however - The way their code reads it (Clyde is the library I am focusing on, since it handles imports and exports) - It is a very large code, and is really stumping me in the aspect of how it applies the .DAT to their code libraries. I have been working on this project on and off since late July.
