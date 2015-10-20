@@ -9,7 +9,7 @@ The latest release is stable.
 
 #WORK SO FAR
  - Improved file reading (Slightly faster reading) + Save/Open dialog (ONLY WORKS WITH XML RIGHT NOW. TUTORIAL IN RELEASES!)
- - Preparations for .DAT reading
+ - Small-scale .DAT reading (NOTE: Not in current release!)
 
 #ISSUES THAT HINDER WORK
  - Schoolwork
