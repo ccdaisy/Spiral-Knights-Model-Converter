@@ -13,8 +13,7 @@ The latest release is stable.
 
 #ISSUES THAT HINDER WORK
  - Schoolwork
- - .DAT Model format understanding
- - Work ethic
+ - Clyde Library understanding
 
 #PLANS
 This is the list of what I plan to improve or add in this project.
