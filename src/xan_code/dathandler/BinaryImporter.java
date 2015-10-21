@@ -682,8 +682,8 @@ public class BinaryImporter extends Importer
         public Map<String, Object> readFields ()
             throws IOException
         {
-            int size = _fieldIdReader.readLength();
-            Map<String, Object> fields = new HashMap<String, Object>(size);
+            int size = _fieldIdReader.readLength(); //FAULTY! Returns -1,000,000,000 on a .DAT file around the 9th read!
+            Map<String, Object> fields = new HashMap<String, Object>(size); //This throws the exception for the index being out of bounds.
             for (int ii = 0; ii < size; ii++) {
                 readField(fields);
             }
