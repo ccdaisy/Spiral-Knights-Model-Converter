@@ -267,8 +267,11 @@ public Vector3f read (String name, Vector3f defvalue)
 /**
  * Reads an object value associated with the current object.
  */
-public abstract <T> T read (String name, T defvalue, Class<T> clazz)
-    throws IOException;
+public <T> T read (String name, T defvalue, Class<T> clazz)
+    throws IOException {
+	// TODO Auto-generated method stub
+	return null;
+}
 
 /**
  * Closes the underlying stream.
@@ -279,7 +282,7 @@ public abstract void close ()
 /**
  * Internal method for reading from a FieldMarshaller.
  */
-protected Object read (String name, Object defvalue, Field field)
+protected  Object read (String name, Object defvalue, Field field)
     throws IOException
 {
     @SuppressWarnings("unchecked")
@@ -307,7 +310,7 @@ protected void readFields (Exportable object)
 }
 
 /** The object whose fields are being read. */
-protected Object _object;
+protected static Object _object;
 
-protected ObjectMarshaller _marshaller;
+protected static ObjectMarshaller _marshaller;
 }

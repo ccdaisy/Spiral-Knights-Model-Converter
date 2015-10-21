@@ -82,7 +82,8 @@ public class ObjectMarshaller
     /**
      * Creates a marshaller for objects of the specified class.
      */
-    protected ObjectMarshaller (Class<?> clazz)
+    @SuppressWarnings("static-access")
+	protected ObjectMarshaller (Class<?> clazz)
     {
         // look for custom read/write methods
         try {

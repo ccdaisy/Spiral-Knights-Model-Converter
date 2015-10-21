@@ -57,7 +57,7 @@ public class Main extends JPanel
     String Name;
     String EX_EXT;
     
-    boolean isXML;
+    public boolean isXML;
     
     File convertedFile;
     
@@ -145,7 +145,7 @@ public class Main extends JPanel
             if (returnVal == JFileChooser.APPROVE_OPTION) {
             	log.append("Opened file. Reading..." + newline);
                 File file = fc.getSelectedFile();
-                loadedfile = file;
+				loadedfile = file;
                 //Handle file here!
                 
                 extension = FilenameUtils.getExtension(file.getPath());
@@ -157,11 +157,17 @@ public class Main extends JPanel
                 if (isXML) {
                 	EX_EXT = ".obj";
                 } else {
-                	EX_EXT = ".txt";
+                	EX_EXT = ".obj";
                 }
                 System.out.println(isXML);
 				objf = HandleFiles.convert(file, isXML);
-				log.append("Ready to export as OBJ!" + newline);
+				if (objf.length() > 25) {
+					log.append("Ready to export as OBJ!" + newline);
+				} else {
+					log.append("Export file empty! Perhaps an error\noccured without notice?\n");
+					loadedfile = null;
+					objf = "";
+				}
                 //Done handling file
             } else {
                 //log.append("Open command cancelled by user." + newline);
@@ -170,6 +176,11 @@ public class Main extends JPanel
  
         //Handle save button action.
         } else if (e.getSource() == saveButton) {
+        	if (loadedfile == null) {
+        		log.append("Please open a model\nbefore trying to save!\n");
+        		log.setCaretPosition(log.getDocument().getLength());
+        		return;
+        	}
         	fc.removeChoosableFileFilter(dat);
         	fc.removeChoosableFileFilter(xml);
         	fc.addChoosableFileFilter(obj);
@@ -192,7 +203,7 @@ public class Main extends JPanel
     }
  
     /** Returns an ImageIcon, or null if the path was invalid. */
-    protected static ImageIcon createImageIcon(String path) {
+    protected ImageIcon createImageIcon(String path) {
         java.net.URL imgURL = Main.class.getResource(path);
         if (imgURL != null) {
             return new ImageIcon(imgURL);
