@@ -42,4 +42,4 @@ This is the list of what I plan to improve or add in this project.
  - Export VALVE .MDL files for usage in Source Film-Maker
 
 #WHAT IS A SPIRAL KNIGHTS .DAT AND HOW DOES IT WORK?
- The Spiral Knights .DAT model is Three Rings's way of packaging models, animations, and some scripts. It is, in fact, a Java code that was merely exported with a FileOutputStream!
+ The Spiral Knights .DAT model is Three Rings's way of packaging models, animations, and some scripts. It is, in fact, a Java code that was merely exported as a custom Object via a FileOutputStream!
