@@ -16,10 +16,12 @@ That's right. Spiral Knights Model to OBJ is starting to accept .DAT files! Some
  - V0.8) .DAT to Model with no textures. Reason: The first method of reading .DAT uses the fewest amount of code from the Clyde library. It will be the easiest to create. I am creating an XML directly from the DAT, then converting the XML to OBJ.
  - V0.9 OR 1.0 Full Release) .DAT to Model with textures. This update will probably be more difficult for me to create, as I will have to grab the OpenGL classes (or lwjgl classes?) in Clyde for the texture mapping function, so that I can recreate the texture for the OBJ.
 
-
+#WHAT CAN IT CONVERT?
+ - XML Exported from Spiral Spy (http://spiral.onyxbits.de/download)
+ - [Not ready] DAT Directly from the Spiral Knights game files
 
 #WORK SO FAR
- - Improved file reading (Slightly faster reading) + Save/Open dialog (ONLY WORKS WITH XML RIGHT NOW. TUTORIAL IN RELEASES!)
+ - Improved file reading (Slightly faster reading) + Save/Open dialog
  - Small-scale .DAT reading (Returns the UTF read from the FileInputStream, which isn't the right way to go for conversion.)
 
 #ISSUES THAT HINDER WORK
