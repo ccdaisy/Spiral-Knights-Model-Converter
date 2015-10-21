@@ -3,7 +3,7 @@ The new and improved version of "Spiral Spy XML to OBJ"!
 
 The current code in the repository **is** up to date (As compared to my eclipse workspace).
 
-The latest release is stable, HOWEVER THE CODE IN THE REPOSITORY IS NOT STABLE (This means you can still download from Releases and be fine)
+The latest release is stable, **however the code in the repository is not stable** (This means you can still download from Releases and be fine)
 
 
 #TODAY IS A BIG DAY!
