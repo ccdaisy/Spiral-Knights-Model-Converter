@@ -20,11 +20,10 @@ That's right. Spiral Knights Model to OBJ is starting to accept .DAT files! Some
 
 #WORK SO FAR
  - Improved file reading (Slightly faster reading) + Save/Open dialog (ONLY WORKS WITH XML RIGHT NOW. TUTORIAL IN RELEASES!)
- - Small-scale .DAT reading (NOTE: Not in current release!)
+ - Small-scale .DAT reading (Returns the UTF read from the FileInputStream, which isn't the right way to go for conversion.)
 
 #ISSUES THAT HINDER WORK
  - Schoolwork
- - Clyde Library understanding
 
 #PLANS
 This is the list of what I plan to improve or add in this project.
@@ -34,7 +33,7 @@ This is the list of what I plan to improve or add in this project.
  - [In progress...] Project revamp that allows directly importing .DAT (And .PNG texture) files and saving as .OBJ + Textures
 
 *PLAUSIBLE*
- - Model previewer (So the program MIGHT be like Spiral Spy with an "Export OBJ" option.)
+ - [Currently inactive] Model previewer (So the program MIGHT be like Spiral Spy with an "Export OBJ" option.)
  - [Currently inactive] Export AutoDesk .FBX format for model, texture, and animation. (This would be easier than the .XMDL)
 
 *CONSIDERED BUT NOT GOING TO BE IMPLEMENTED*
