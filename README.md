@@ -1,9 +1,20 @@
-# Spiral Knights Model to OBJ
+#Spiral Knights Model to OBJ
 The new and improved version of "Spiral Spy XML to OBJ"!
 
 The current code IS up to date (As compared to my eclipse workspace).
 
 The latest release is stable, HOWEVER THE CODE IN THE REPOSITORY IS NOT STABLE (This means you can still download from Releases and be fine)
+
+
+#TODAY IS A BIG DAY!
+That's right. Spiral Knights Model to OBJ is starting to accept .DAT files! Some time today I will hopefully fix the error that is causing the reading code shown in the repository to be faulty. (If you are curious, the field reader in BinaryImporter.java seems to not read .DAT files correctly. One of the field's length is somewhere near -1,000,000,000 for some reason. I am working this out.)
+
+**BEFORE YOU GET TOO HAPPY, THERE IS SOME DISCOURAGING NEWS**
+.DAT reading will have to come in either 2 or 3 updates (3 if I include the AutoDesk FBX exporter). Here's why and how they will be released:
+
+
+ - V0.7) .DAT to Model with no textures. Reason: The first method of reading .DAT uses the fewest amount of code from the Clyde library. It will be the easiest to create. I am creating an XML directly from the DAT, then converting the XML to OBJ.
+ - V0.8) .DAT to Model with textures. This update will probably be more difficult for me to create, as I will have to grab the OpenGL classes (or lwjgl classes?) in Clyde for the texture mapping function, so that I can recreate the texture for the OBJ.
 
 
 
