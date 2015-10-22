@@ -7,8 +7,8 @@ The current code in the repository **is** up to date (As compared to my eclipse 
 The latest release is stable, **however the code in the repository is not stable** (This means you can still download from Releases and be fine)
 
 
-#TODAY IS A BIG DAY!
-That's right. Spiral Knights Model to OBJ is starting to accept .DAT files! Some time today I will hopefully fix the error that is causing the reading code shown in the repository to be faulty. (If you are curious, the field reader in BinaryImporter.java seems to not read .DAT files correctly. One of the field's length is somewhere near -1,000,000,000 for some reason. I am working this out.)
+#BIG NEWS!
+That's right. Spiral Knights Model to OBJ is starting to accept .DAT files! Some time today I will hopefully fix the error that is causing the reading code shown in the repository to be faulty. (If you are curious, the field reader in BinaryImporter.java seems to not read .DAT files correctly. I get the error "Exception in thread "AWT-EventQueue-0" java.lang.IllegalArgumentException: Illegal initial capacity: -1318888063")
 
 **BEFORE YOU GET TOO HAPPY, THERE IS SOME DISCOURAGING NEWS**
 .DAT reading will have to come in either 2 or 3 updates (3 if I include the AutoDesk FBX exporter). Here's why and how they will be released:
