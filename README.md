@@ -8,7 +8,7 @@ The latest release is stable, **however the code in the repository is not stable
 
 
 #BIG NEWS!
-That's right. Spiral Knights Model to OBJ is starting to accept .DAT files! Hopefully some time within the next 7 days I will fix the error that is causing the reading code shown in the repository to be faulty. (If you are curious, the field reader in BinaryImporter.java seems to not read .DAT files correctly. I get the error "Exception in thread "AWT-EventQueue-0" java.lang.IllegalArgumentException: Illegal initial capacity: -1318888063")
+That's right. Spiral Knights Model to OBJ is starting to accept .DAT files! Hopefully some time within the next 7 days I will fix the error that is causing the reading code shown in the repository to be faulty.
 
 **BEFORE YOU GET TOO HAPPY, THERE IS SOME DISCOURAGING NEWS**
 .DAT reading will have to come in either 2 or 3 updates (3 if I include the AutoDesk FBX exporter). Here's why and how they will be released:
@@ -44,4 +44,4 @@ This is the list of what I plan to improve or add in this project.
  - Export VALVE .MDL files for usage in Source Film-Maker
 
 #WHAT IS A SPIRAL KNIGHTS .DAT AND HOW DOES IT WORK?
- The Spiral Knights .DAT model is Three Rings's way of packaging models, animations, and some scripts. It is, in fact, a Java code that was merely exported as a custom Object via a FileOutputStream!
+ The Spiral Knights .DAT model is Three Rings's way of packaging models, animations, and some scripts. It is, in fact, a Java code that was merely exported as a custom Object via a FileOutputStream! A new discovery has led me to find out that I am actually missing code since the .DAT indexes code from my libraries. I will also have to restore the location of the DAT handling code in my repository/workspace so that the .DAT can properly index the code.
