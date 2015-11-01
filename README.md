@@ -16,7 +16,6 @@ This is the list of what I plan to improve or add in this project.
 *CONFIRMED*
  - [Done!] Project revamp that allows save/open dialog as opposed to the terrible method of text copy/paste 
  - [In progress...] Project revamp that allows directly importing .DAT (And .PNG texture) files and saving as .OBJ + Textures
- - [In progress... (With the above)] Model previewer (So the program will be like Spiral Spy with an "Export OBJ" option.)
 
 *PLAUSIBLE*
  - [Currently inactive] Export AutoDesk .FBX format for model, texture, and animation. (This would be easier than the .XMDL)
