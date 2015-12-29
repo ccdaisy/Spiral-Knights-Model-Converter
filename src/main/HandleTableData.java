@@ -5,7 +5,7 @@ package main;
 import java.io.IOException;
 
 public class HandleTableData {
-	static String obj = "#Brought to you by Brent \"XanthicDragon\" Duanne\n\ng Model\n\n";
+	static String obj = "#Brought to you by Brent \"XanthicDragon\" Duanne\n\nusemtl ExportMTL\no Model\n\n";
 	
 	private static int count(String str, String findStr) {
 		int lastIndex = 0;
@@ -82,33 +82,13 @@ public class HandleTableData {
 			}
 		}
 		obj = obj + "\nusemtl none\n\n";
-		HandleIndicesGraphics graphics = new HandleIndicesGraphics();
-		int[][] texC = graphics.PngGet();
-		if (texC != null) {
-			int TC = count(obj, "v");
-			int x = 1;
-			int y = 1;
-			for (int i = 0; i <= TC; i++) {
-				if (i % 3 == 0 && i > 0) {
-					int a = i-2;
-					int b = i-1;
-					int c = i-0;
-					if (i < texC.length) {
-						x = texC[i][0];
-						y = texC[i][1];
-					}
-					obj = obj + "f "+a+"/"+x+" "+b+"/"+y+" "+c+"/1\n";
-				}
-			}
-		} else {
-			int TC = count(obj, "v");
-			for (int i = 0; i <= TC; i++) {
-				if (i % 3 == 0 && i > 0) {
-					int a = i-2;
-					int b = i-1;
-					int c = i-0;
-					obj = obj + "f "+a+" "+b+" "+c+"\n";
-				}
+		int TC = count(obj, "v");
+		for (int i = 0; i <= TC; i++) {
+			if (i % 3 == 0 && i > 0) {
+				int a = i-2;
+				int b = i-1;
+				int c = i-0;
+				obj = obj + "f "+a+" "+b+" "+c+"\n";
 			}
 		}
 		return obj;
