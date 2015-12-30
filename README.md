@@ -6,9 +6,15 @@ The current code in the repository **is not** up to date (As compared to my ecli
 
 The latest release is stable, however the code in the repository **is not** stable.
 
+#What is Spiral Knights Model to OBJ?
+Spiral Knights model to OBJ is a tool for anyone who wants to animate or 3D print models from Spiral Knights!
+
+The tool is very straightforward and easy to use. It opens 3D Models from Spiral Knights and converts them to a format that tools such as Blender or Autodesk 3DS Max can open for usage in animation / 3D printing.
+
+
 #WHAT CAN IT CONVERT?
  - XML Exported from Spiral Spy (http://spiral.onyxbits.de/download) (Fun fact: Spiral Spy uses the same exact code I use)
- - [Works!] DAT Directly from the Spiral Knights game files (NO TEXTURES)
+ - DAT Directly from the Spiral Knights game files (NO TEXTURES)
 
 #PLANS
 This is the list of what I plan to improve or add in this project.
@@ -28,5 +34,7 @@ This is the list of what I plan to improve or add in this project.
  - Improved file reading (Slightly faster reading) + Save/Open dialog
  - Full-scale .DAT reading. It can now convert the model. Not the texture, however.
 
-#WHAT IS A SPIRAL KNIGHTS .DAT AND HOW DOES IT WORK?
- The Spiral Knights .DAT model is Three Rings's way of packaging models, animations, and some scripts. It is, in fact, a Java code that was merely exported as a custom Object via a FileOutputStream! A new discovery has led me to find out that I am actually missing code since the .DAT indexes code from my libraries. I will also have to restore the location of the DAT handling code in my repository/workspace so that the .DAT can properly index the code.
+#SPECIAL THANKS
+ - Three Rings Design: You guys are awesome! Thank you **so much** for making your source code open source. I couldn't have done this without you guys.
+ - The Spiral Knights community. Some of you guys have been following my topics and giving feedback (More, "I can't wait for this program!") and letting me know that this project matters.
+ - People whose libraries I used.
