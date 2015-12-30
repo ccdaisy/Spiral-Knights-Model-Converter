@@ -12,11 +12,11 @@ Spiral Knights model to OBJ is a tool for anyone who wants to animate or 3D prin
 The tool is very straightforward and easy to use. It opens 3D Models from Spiral Knights and converts them to a format that tools such as Blender or Autodesk 3DS Max can open for usage in animation / 3D printing.
 
 
-#WHAT CAN IT CONVERT?
+#What can it convert?
  - XML Exported from Spiral Spy (http://spiral.onyxbits.de/download) (Fun fact: Spiral Spy uses the same exact code I use)
  - DAT Directly from the Spiral Knights game files (NO TEXTURES)
 
-#PLANS
+#Plans for the future
 This is the list of what I plan to improve or add in this project.
 
 *CONFIRMED*
@@ -30,11 +30,11 @@ This is the list of what I plan to improve or add in this project.
  - Compact and user friendly model + animation editor in the program
  - Export VALVE .MDL files for usage in Source Film-Maker
 
-#WORK SO FAR
+#What do I have done right now?
  - Improved file reading (Slightly faster reading) + Save/Open dialog
  - Full-scale .DAT reading. It can now convert the model. Not the texture, however.
 
-#SPECIAL THANKS
+#Special Thanks
  - Three Rings Design: You guys are awesome! Thank you **so much** for making your source code open source. I couldn't have done this without you guys.
  - The Spiral Knights community. Some of you guys have been following my topics and giving feedback (More, "I can't wait for this program!") and letting me know that this project matters.
  - People whose libraries I used.
