@@ -2,9 +2,9 @@
 
 The new and improved version of "Spiral Spy XML to OBJ"!
 
-The current code in the repository **is** up to date (As compared to my eclipse workspace).
+The current code in the repository **is not** up to date (As compared to my eclipse workspace).
 
-The latest release is stable, and the code in the repository is stable.
+The latest release is stable, however the code in the repository **is not** stable.
 
 #WHAT CAN IT CONVERT?
  - XML Exported from Spiral Spy (http://spiral.onyxbits.de/download) (Fun fact: Spiral Spy uses the same exact code I use)
