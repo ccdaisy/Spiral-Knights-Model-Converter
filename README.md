@@ -1,8 +1,6 @@
 #Spiral Knights Model to OBJ
 
-The new and improved version of "Spiral Spy XML to OBJ"!
-
-The current code in the repository **is not** up to date (As compared to my eclipse workspace).
+*The current code in the repository **is not** up to date (As compared to my eclipse workspace).*
 
 The latest release is stable, however the code in the repository **is not** stable.
 
