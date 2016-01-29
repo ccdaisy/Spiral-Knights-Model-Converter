@@ -36,3 +36,12 @@ This is the list of what I plan to improve or add in this project.
  - Three Rings Design: You guys are awesome! Thank you **so much** for making your source code open source. I couldn't have done this without you guys.
  - The Spiral Knights community. Some of you guys have been following my topics and giving feedback (More, "I can't wait for this program!") and letting me know that this project matters.
  - People whose libraries I used.
+
+#Contact me
+Please only contact me if you're interested in helping out or have a question regarding how ThreeRings code works (Which I probably won't be able to answer too well. I can't explain things)
+Contact me to help if...
+ - You're good with Java
+ - You're willing to give me your Skype (or get a Skype) so we can chat.
+ - You're in the US (I can't call when it's midday for you and it's midnight for me)
+
+subzeroxan@gmail.com
