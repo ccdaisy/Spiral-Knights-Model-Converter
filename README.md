@@ -1,6 +1,6 @@
 #Spiral Knights Model to OBJ
 
-The current code in the repository **is not** up to date (As compared to my eclipse workspace) **THIS MEANS DO NOT DOWNLOAD SOURCES UNLESS IT IS PACKED IN AN "Actual.Source.Code.zip" FILE!**.
+The current code in the repository **is not** up to date (As compared to my eclipse workspace) **THIS MEANS DO NOT DOWNLOAD SOURCES UNLESS IT IS PACKED IN AN "Actual.Source.Code.zip" FILE IN THE RELEASES TAB!**.
 
 The latest release is stable, however the code in the repository **is not** stable.
 
