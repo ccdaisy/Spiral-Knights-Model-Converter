@@ -38,6 +38,6 @@ This is the list of what I plan to improve or add in this project.
  - People whose libraries I used.
 
 #Contact me
-Please only contact me if you're interested in helping out or have a question regarding how ThreeRings code works (Which I probably won't be able to answer too well. I can't explain things very well.)
+Contacting me is good for clearing up questions.
 
 subzeroxan@gmail.com
