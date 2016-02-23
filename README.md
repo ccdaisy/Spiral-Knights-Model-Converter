@@ -22,9 +22,10 @@ This is the list of what I plan to improve or add in this project.
  - [In progress... (50%)] Project revamp that allows directly importing .DAT (And .PNG texture) files and saving as .OBJ + Textures
 
 *PLAUSIBLE*
- - [Currently inactive] Export Blender .BLEND format for model, texture, and animation.
+ - [Inactive] Project update that allows for a custom model format export followed by a plugin on Blender to import this custom format. The format will have all data the .DAT stores†
 
 *CONSIDERED BUT NOT GOING TO BE IMPLEMENTED*
+ - Export Blender .BLEND format for model, texture, and animation.
  - Compact and user friendly model + animation editor in the program
  - Export VALVE .MDL files for usage in Source Film-Maker
 
@@ -41,3 +42,7 @@ This is the list of what I plan to improve or add in this project.
 Contacting me is good for clearing up questions.
 
 subzeroxan@gmail.com
+
+
+#Footnotes
+† - As for the custom model export, you may be curious as to why I'm not just making a tool for Blender that allows direct .DAT imports. Keep in mind that .DAT files are DESIGNED to be read by Java, and that I cannot use Python to accurately read them.
