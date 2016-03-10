@@ -5,6 +5,7 @@ The current code in the repository **is not** up to date (As compared to my ecli
 The latest release is stable, however the code in the repository **is not** stable.
 
 Current work status: **Not working on project** (I'm taking a bit of a break.)
+Current work issues: I have no more ideas on how I could find out how textures work. I've gone into studying how models work. I may have to entirely ditch ThreeRings's code for conversion and instead extract the data from the binary directly.
 
 #What is Spiral Knights Model to OBJ?
 Spiral Knights model to OBJ is a tool for anyone who wants to animate or 3D print models from Spiral Knights!
