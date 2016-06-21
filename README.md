@@ -4,9 +4,9 @@ The current code in the repository **is not** up to date (As compared to my ecli
 
 The latest release is stable, however the code in the repository **is not** stable.
 
-Current work status: **Not working on project** (I'm taking a bit of a break.)
+Current work status: **Working on project!**
 
-Current work issues: I have no more ideas on how I could find out how textures work. I've gone into studying how models work. I may have to entirely ditch ThreeRings's code for conversion and instead extract the data from the binary directly.
+Current work issues: Textures. Still.
 
 #What is Spiral Knights Model to OBJ?
 Spiral Knights model to OBJ is a tool for anyone who wants to animate or 3D print models from Spiral Knights!
@@ -23,10 +23,10 @@ This is the list of what I plan to improve or add in this project.
 
 *CONFIRMED*
  - [Done!] Project revamp that allows save/open dialog as opposed to the terrible method of text copy/paste 
- - [In progress... (50%)] Project revamp that allows directly importing .DAT (And .PNG texture) files and saving as .OBJ + Textures
+ - [In progress... (50%)] Project revamp that allows directly importing .DAT files and saving as .OBJ with direct texture application support (As opposed to manual mapping)
 
 *PLAUSIBLE*
- - [Inactive] Project update that allows for a custom model format export followed by a plugin on Blender to import this custom format. The format will have all data the .DAT stores†
+ - Nothing. It's either confirmed or not.
 
 *CONSIDERED BUT NOT GOING TO BE IMPLEMENTED*
  - Export Blender .BLEND format for model, texture, and animation.
@@ -35,7 +35,7 @@ This is the list of what I plan to improve or add in this project.
 
 #What do I have done right now?
  - Improved file reading (Slightly faster reading) + Save/Open dialog
- - Full-scale .DAT reading. It can now convert the model. Not the texture, however.
+ - Full-scale .DAT reading. It can now convert the model, however texture coordinates are incorrect.
 
 #Special Thanks
  - Three Rings Design: You guys are awesome! Thank you **so much** for making your source code open source. I couldn't have done this without you guys.
