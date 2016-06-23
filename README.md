@@ -1,32 +1,52 @@
 #Spiral Knights Model to OBJ
 
-The new and improved version of "Spiral Spy XML to OBJ"!
+The current code in the repository **is not** up to date (As compared to my eclipse workspace) **THIS MEANS DO NOT DOWNLOAD SOURCES UNLESS IT IS PACKED IN AN "Actual.Source.Code.zip" FILE IN THE RELEASES TAB!**.
 
-The current code in the repository **is not** up to date (As compared to my eclipse workspace).
+The latest release is stable, however the code in the repository **is not** stable.
 
-The latest release is stable, **however the code in the repository is not stable** (This means you can still download from Releases and be fine)
+Current work status: **Working on project!**
 
-#WHAT CAN IT CONVERT?
+Current work issues: Textures. Still.
+
+#What is Spiral Knights Model to OBJ?
+Spiral Knights model to OBJ is a tool for anyone who wants to animate or 3D print models from Spiral Knights!
+
+The tool is very straightforward and easy to use. It opens 3D Models from Spiral Knights and converts them to a format that tools such as Blender or Autodesk 3DS Max can open for usage in animation / 3D printing.
+
+
+#What can it convert?
  - XML Exported from Spiral Spy (http://spiral.onyxbits.de/download) (Fun fact: Spiral Spy uses the same exact code I use)
- - [Not ready] DAT Directly from the Spiral Knights game files
+ - DAT Directly from the Spiral Knights game files (NO TEXTURES)
 
-#PLANS
+#Plans for the future (Updated JUNE 21, 2016)
 This is the list of what I plan to improve or add in this project.
 
 *CONFIRMED*
  - [Done!] Project revamp that allows save/open dialog as opposed to the terrible method of text copy/paste 
- - [In progress...] Project revamp that allows directly importing .DAT (And .PNG texture) files and saving as .OBJ + Textures
+ - [In progress... (50%)] Project revamp that allows directly importing .DAT files and saving as .OBJ with direct texture application support (As opposed to manual mapping)
 
 *PLAUSIBLE*
- - [Currently inactive] Export AutoDesk .FBX format for model, texture, and animation. (This would be easier than the .XMDL)
+ - Nothing. It's either confirmed or not.
 
 *CONSIDERED BUT NOT GOING TO BE IMPLEMENTED*
+ - Export Blender .BLEND format for model, texture, and animation.
  - Compact and user friendly model + animation editor in the program
  - Export VALVE .MDL files for usage in Source Film-Maker
 
-#WORK SO FAR
+#What do I have done right now?
  - Improved file reading (Slightly faster reading) + Save/Open dialog
- - Small-scale .DAT reading (Returns the UTF read from the FileInputStream, which isn't the right way to go for conversion.)
+ - Full-scale .DAT reading. It can now convert the model, however texture coordinates are incorrect.
 
-#WHAT IS A SPIRAL KNIGHTS .DAT AND HOW DOES IT WORK?
- The Spiral Knights .DAT model is Three Rings's way of packaging models, animations, and some scripts. It is, in fact, a Java code that was merely exported as a custom Object via a FileOutputStream! A new discovery has led me to find out that I am actually missing code since the .DAT indexes code from my libraries. I will also have to restore the location of the DAT handling code in my repository/workspace so that the .DAT can properly index the code.
+#Special Thanks
+ - Three Rings Design: You guys are awesome! Thank you **so much** for making your source code open source. I couldn't have done this without you guys.
+ - The Spiral Knights community. Some of you guys have been following my topics and giving feedback (More, "I can't wait for this program!") and letting me know that this project matters.
+ - People whose libraries I used.
+
+#Contact me
+Contacting me is good for clearing up questions.
+
+subzeroxan@gmail.com
+
+
+#Footnotes
+† - As for the custom model export, you may be curious as to why I'm not just making a tool for Blender that allows direct .DAT imports. Keep in mind that .DAT files are DESIGNED to be read by Java, and that I cannot use Python to accurately read them.
