@@ -1,12 +1,10 @@
 #Spiral Knights Model to OBJ
 
-The current code in the repository **is not** up to date (As compared to my eclipse workspace) **THIS MEANS DO NOT DOWNLOAD SOURCES UNLESS IT IS PACKED IN AN "Actual.Source.Code.zip" FILE IN THE RELEASES TAB!**.
+The current code in the repository **is not** up to date. **THIS MEANS DO NOT DOWNLOAD SOURCES UNLESS IT IS PACKED IN AN "Actual.Source.Code.zip" FILE IN THE RELEASES TAB!**.
 
 The latest release is stable, however the code in the repository **is not** stable.
 
 Current work status: **Working on project!**
-
-Current work issues: Textures. Still.
 
 #What is Spiral Knights Model to OBJ?
 Spiral Knights model to OBJ is a tool for anyone who wants to animate or 3D print models from Spiral Knights!
@@ -18,24 +16,8 @@ The tool is very straightforward and easy to use. It opens 3D Models from Spiral
  - XML Exported from Spiral Spy (http://spiral.onyxbits.de/download) (Fun fact: Spiral Spy uses the same exact code I use)
  - DAT Directly from the Spiral Knights game files (NO TEXTURES)
 
-#Plans for the future (Updated JUNE 21, 2016)
-This is the list of what I plan to improve or add in this project.
-
-*CONFIRMED*
- - [Done!] Project revamp that allows save/open dialog as opposed to the terrible method of text copy/paste 
- - [In progress... (50%)] Project revamp that allows directly importing .DAT files and saving as .OBJ with direct texture application support (As opposed to manual mapping)
-
-*PLAUSIBLE*
- - Nothing. It's either confirmed or not.
-
-*CONSIDERED BUT NOT GOING TO BE IMPLEMENTED*
- - Export Blender .BLEND format for model, texture, and animation.
- - Compact and user friendly model + animation editor in the program
- - Export VALVE .MDL files for usage in Source Film-Maker
-
-#What do I have done right now?
- - Improved file reading (Slightly faster reading) + Save/Open dialog
- - Full-scale .DAT reading. It can now convert the model, however texture coordinates are incorrect.
+#When will you release it?
+ - I'm hoping I can get it released some time withing the week. I have texture UV coordinates down, however they are mapped to the inccorrect vertices.
 
 #Special Thanks
  - Three Rings Design: You guys are awesome! Thank you **so much** for making your source code open source. I couldn't have done this without you guys.
