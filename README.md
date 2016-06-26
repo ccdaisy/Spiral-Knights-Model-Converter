@@ -14,21 +14,18 @@ The tool is very straightforward and easy to use. It opens 3D Models from Spiral
 
 #What can it convert?
  - XML Exported from Spiral Spy (http://spiral.onyxbits.de/download) (Fun fact: Spiral Spy uses the same exact code I use)
- - DAT Directly from the Spiral Knights game files (NO TEXTURES)
+ - DAT Directly from the Spiral Knights game files
 
 #When will you release it?
- - I'm hoping I can get it released some time withing the week. I have texture UV coordinates down, however they are mapped to the inccorrect vertices.
+ - SKDatOBJ / SK Model to OBJ has been released! Check the releases tab at the top.
 
 #Special Thanks
  - Three Rings Design: You guys are awesome! Thank you **so much** for making your source code open source. I couldn't have done this without you guys.
  - The Spiral Knights community. Some of you guys have been following my topics and giving feedback (More, "I can't wait for this program!") and letting me know that this project matters.
  - People whose libraries I used.
+ - Impulse™ ( http://steamcommunity.com/id/ImpulseTru ) for staying with me through out the whole project and being a good friend for it.
 
 #Contact me
 Contacting me is good for clearing up questions.
 
 subzeroxan@gmail.com
-
-
-#Footnotes
-† - As for the custom model export, you may be curious as to why I'm not just making a tool for Blender that allows direct .DAT imports. Keep in mind that .DAT files are DESIGNED to be read by Java, and that I cannot use Python to accurately read them.
