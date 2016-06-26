@@ -17,7 +17,7 @@ The tool is very straightforward and easy to use. It opens 3D Models from Spiral
  - DAT Directly from the Spiral Knights game files
 
 #When will you release it?
- - SKDatOBJ / SK Model to OBJ has been released! Check the releases tab at the top.
+ - SKDatOBJ / SK Model to OBJ has been released, however I have pulled it back due to some issues.
 
 #Special Thanks
  - Three Rings Design: You guys are awesome! Thank you **so much** for making your source code open source. I couldn't have done this without you guys.
