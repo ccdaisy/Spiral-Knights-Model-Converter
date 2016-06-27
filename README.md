@@ -19,6 +19,7 @@ The tool is very straightforward and easy to use. It opens 3D Models from Spiral
 #What else do you plan on? (Plans for the future)
  - Multi-texture support (Models that have 2 different textures used on the same model at the same time)
  - Bone-data support for animations
+ - Referenced models (If a model says "Attach this other model to me!", the code will be able to detect that and will also load the other model)
 
 #Special Thanks
  - Three Rings Design: You guys are awesome! Thank you **so much** for making your source code open source. I couldn't have done this without you guys.
