@@ -22,7 +22,7 @@ The tool is very straightforward and easy to use. It opens 3D Models from Spiral
  - Referenced models (If a model says "Attach this other model to me!", the code will be able to detect that and will also load the other model)
 
 #Special Thanks
- - Three Rings Design: You guys are awesome! Thank you **so much** for making your source code open source. I couldn't have done this without you guys.
+ - Grey Havens: You guys are awesome! Thank you **so much** for making your source code open source. I couldn't have done this without you guys.
  - The Spiral Knights community. Some of you guys have been following my topics and giving feedback (More, "I can't wait for this program!") and letting me know that this project matters.
  - People whose libraries I used.
  - Impulse™ ( http://steamcommunity.com/id/ImpulseTru ) for staying with me through out the whole project and being an excellent bug-sniffer.
