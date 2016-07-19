@@ -1,8 +1,8 @@
-#Spiral Knights Model to OBJ
+#Spiral Knights Model to OBJ Info
 
-The current code in the repository **is not** up to date. **THIS MEANS DO NOT DOWNLOAD SOURCES UNLESS IT IS PACKED IN AN "Actual.Source.Code.zip" FILE IN THE RELEASES TAB!**.
+I do not update the code in the repository all too often. Instead, I package source code in a .ZIP with each release.
 
-The latest release is stable, however the code in the repository **is not** stable.
+**This means that you should *not* take source code from GitHub's preset "source.zip" in the releases**
 
 Current work status: **Working on project!**
 
