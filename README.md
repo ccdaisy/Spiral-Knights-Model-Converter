@@ -4,6 +4,9 @@ I do not update the code in the repository all too often. Instead, I package sou
 
 **This means that you should *not* take source code from GitHub's preset "source.zip" in the releases**
 
+
+**If you plan to release one of these models on the Garry's Mod workshop, I ask that you mention my tool there!**
+
 Current work status: **Working on project!**
 
 #What is Spiral Knights Model to OBJ?
