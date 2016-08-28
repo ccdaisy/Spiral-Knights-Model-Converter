@@ -8,6 +8,7 @@ I do not update the code in the repository all too often. Instead, I package sou
 **If you plan to release one of these models on the Garry's Mod workshop, I ask that you mention my tool there!**
 
 Current work status: **Working on project!**
+
 Working on: **Rewriting the project to read faster. NOTE: THIS UPDATE WILL DROP XML READING.**
 
 #What is Spiral Knights Model to OBJ?
