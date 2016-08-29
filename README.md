@@ -9,8 +9,6 @@ I do not update the code in the repository all too often. Instead, I package sou
 
 Current work status: **Working on project!**
 
-Working on: **Rewriting the project to read faster. NOTE: THIS UPDATE WILL DROP XML READING.**
-
 #What is Spiral Knights Model to OBJ?
 Spiral Knights model to OBJ is a tool for anyone who wants to animate or 3D print models from Spiral Knights!
 
