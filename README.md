@@ -29,6 +29,7 @@ The tool is very straightforward and easy to use. It opens 3D Models from Spiral
  - The Spiral Knights community. Some of you guys have been following my topics and giving feedback (More, "I can't wait for this program!") and letting me know that this project matters.
  - People whose libraries I used.
  - Impulse™ ( http://steamcommunity.com/id/ImpulseTru ) for staying with me through out the whole project and being an excellent bug-sniffer.
+ - System76 ( http://steamcommunity.com/id/system76 - Private Profile) for being someone else doing what I was doing. He's got some parts that I don't have, and I have some parts that he doesn't have. He's helping with the format.
 
 
 #Contact me
