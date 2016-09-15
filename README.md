@@ -16,7 +16,6 @@ The tool is very straightforward and easy to use. It opens 3D Models from Spiral
 
 
 #What can it convert?
- - XML Exported from Spiral Spy (http://spiral.onyxbits.de/download) (Fun fact: Spiral Spy uses the same exact code I use)
  - DAT Directly from the Spiral Knights game files
 
 #What else do you plan on? (Plans for the future)
