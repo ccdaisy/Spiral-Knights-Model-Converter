@@ -1,9 +1,8 @@
 package xan_code;
 
 import java.io.File;
-import javax.swing.filechooser.*;
 
-public class OpenFileFilter extends FileFilter {
+public class OpenFileFilter extends javax.swing.filechooser.FileFilter {
 
     String description = "";
     String fileExt = "";
@@ -17,14 +16,12 @@ public class OpenFileFilter extends FileFilter {
         this.description = typeDescription;
     }
 
-    @Override
     public boolean accept(File f) {
         if (f.isDirectory())
             return true;
         return (f.getName().toLowerCase().endsWith(fileExt));
     }
 
-    @Override
     public String getDescription() {
         return description;
     }

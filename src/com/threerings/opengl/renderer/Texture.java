@@ -435,7 +435,7 @@ public abstract class Texture
     /**
      * Converts (and resizes) an image into a buffer of data to be passed to OpenGL.
      */
-    protected static ByteBuffer getData (
+    public static ByteBuffer getData (
         BufferedImage image, boolean premultiply, int width, int height, boolean rescale)
     {
         int iwidth = image.getWidth(), iheight = image.getHeight();

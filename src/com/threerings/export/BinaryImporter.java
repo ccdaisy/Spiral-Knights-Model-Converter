@@ -27,7 +27,6 @@ package com.threerings.export;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -35,7 +34,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.EnumSet;
-
 import java.util.zip.InflaterInputStream;
 
 import com.google.common.base.Supplier;
@@ -48,9 +46,7 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
-
 import com.threerings.util.ReflectionUtil;
-
 import com.samskivert.util.HashIntMap;
 
 import static com.threerings.export.Log.log;

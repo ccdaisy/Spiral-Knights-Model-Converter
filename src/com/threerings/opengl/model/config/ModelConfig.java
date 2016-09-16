@@ -110,7 +110,7 @@ public class ModelConfig extends ParameterizedConfig
     public static abstract class Implementation extends DeepObject
         implements Exportable, Preloadable.LoadableConfig
     {
-        /**
+		/**
          * Retrieves a reference to the underlying original implementation.
          */
         public Implementation getOriginal (ConfigManager cfgmgr)

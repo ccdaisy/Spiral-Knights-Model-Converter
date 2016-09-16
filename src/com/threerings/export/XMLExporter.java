@@ -259,6 +259,9 @@ public class XMLExporter extends Exporter
     protected void writeValue (Element element, Object value, Class<?> clazz)
         throws IOException
     {
+    	//value = the object
+    	//clazz = object.class
+    	
         // write the class unless we can determine that implicitly
         Class<?> cclazz = getClass(value);
         if (cclazz != clazz) {

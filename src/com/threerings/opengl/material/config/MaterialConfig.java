@@ -64,6 +64,12 @@ public class MaterialConfig extends ParameterizedConfig
          * Returns a technique to use to render this material.
          */
         public abstract TechniqueConfig getTechnique (GlContext ctx, String scheme);
+        
+        
+        /**
+         * Returns a technique based on an index
+         */
+        public abstract TechniqueConfig getTechnique (GlContext ctx, int Index);
 
         /**
          * Invalidates any cached data.
@@ -89,6 +95,18 @@ public class MaterialConfig extends ParameterizedConfig
             for (TechniqueConfig technique : techniques) {
                 technique.preload(ctx);
             }
+        }
+        
+        //Added by Xan
+        @Override
+        public TechniqueConfig getTechnique (GlContext ctx, int Index) {
+        	ArrayList<TechniqueConfig> processed = getProcessedTechniques(ctx);
+        	try {
+        		return processed.get(Index);
+        	} catch (Exception e) {
+        		
+        	}
+        	return null;
         }
 
         @Override
@@ -207,6 +225,12 @@ public class MaterialConfig extends ParameterizedConfig
                 MaterialConfig.class, material);
             return (config == null) ? null : config.getTechnique(ctx, scheme);
         }
+
+		@Override
+		public TechniqueConfig getTechnique(GlContext ctx, int Index) {
+			// TODO Auto-generated method stub
+			return null;
+		}
     }
 
     /** The actual material implementation. */
@@ -221,6 +245,17 @@ public class MaterialConfig extends ParameterizedConfig
     public TechniqueConfig getTechnique (GlContext ctx, String scheme)
     {
         return implementation.getTechnique(ctx, scheme);
+    }
+    
+    //Added by Xan
+    /**
+     * Finds a technique to render this material based on an index.
+     * 
+     * @param Index the index to search from.
+     */
+    
+    public TechniqueConfig getTechnique(GlContext ctx, int Index) {
+    	return implementation.getTechnique(ctx, Index);
     }
 
     @Override

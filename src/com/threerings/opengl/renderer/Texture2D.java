@@ -67,7 +67,7 @@ public class Texture2D extends Texture
             _wrapS = _wrapT = GL12.GL_CLAMP_TO_EDGE;
         }
     }
-
+    
     /**
      * Determines whether this texture is associated with the rectangle target.
      */
