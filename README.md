@@ -7,7 +7,7 @@ I do not update the code in the repository all too often. Instead, I package sou
 
 **If you plan to release one of these models on the Garry's Mod workshop, I ask that you mention my tool there!**
 
-Current work status: **Not working on project (It's pretty much done)**
+Current work status: **Working on fixing bugs.**
 
 #What is Spiral Knights Model Converter?
 Spiral Knights model to OBJ is a tool for anyone who wants to animate or 3D print models from Spiral Knights!
