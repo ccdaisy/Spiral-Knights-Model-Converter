@@ -10,7 +10,7 @@ I do not update the code in the repository all too often. Instead, I package sou
 Current work status: **Working on fixing bugs.**
 
 #What is Spiral Knights Model Converter?
-Spiral Knights model to OBJ is a tool for anyone who wants to animate or 3D print models from Spiral Knights!
+Spiral Knights Model Converter is a tool for anyone who wants to animate or 3D print models from Spiral Knights!
 
 The tool is very straightforward and easy to use. It opens 3D Models from Spiral Knights and converts them to a format that tools such as Blender or Autodesk 3DS Max can open for usage in animation / 3D printing.
 
