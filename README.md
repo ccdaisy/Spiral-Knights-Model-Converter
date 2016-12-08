@@ -1,5 +1,7 @@
 #Spiral Knights Model Converter Info
 
+You can get to my blog to track development here: https://xanthedragon.blogspot.com/
+
 I do not update the code in the repository all too often. Instead, I package source code in a .ZIP with each release.
 
 **This means that you should *not* take source code from GitHub's preset "source.zip" in the releases**
