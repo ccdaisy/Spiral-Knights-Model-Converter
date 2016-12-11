@@ -30,7 +30,7 @@ The tool is very straightforward and easy to use. It opens 3D Models from Spiral
  - Impulse™ ( http://steamcommunity.com/id/ImpulseTru ) for staying with me through out the whole project and being an excellent bug-sniffer.
  - System76 ( http://steamcommunity.com/id/system76 - Private Profile) for helping out with the format. He's helped me understand bones, and we've been working together for a while now.
  
-#Recommended software:
+#Recommended software
  - [Spiral Spy](http://spiral.onyxbits.de/download/) - This program uses the same libraries as I do, and is designed for editing/viewing models. This is handy for customizing a model before you pass it through my program.
 
 #Contact me
