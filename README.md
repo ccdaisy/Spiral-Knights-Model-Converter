@@ -1,3 +1,7 @@
+Readme:
+
+#THIS PROJECT WILL SOON BE MOVING!!! I'm revamping the entire project to make it more compatible and have much better code.
+
 #Spiral Knights Model Converter Info
 
 You can get to my blog to track development here: https://xanthedragon.blogspot.com/
