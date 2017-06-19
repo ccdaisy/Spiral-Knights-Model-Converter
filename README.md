@@ -1,8 +1,8 @@
 Readme:
 
-#THIS PROJECT WILL SOON BE MOVING!!! I'm revamping the entire project to make it more compatible and have much better code.
+# THIS PROJECT WILL SOON BE MOVING!!! I'm revamping the entire project to make it more compatible and have much better code. That said, this project should be assumed deprecated. The latest version in the releases should work well enough while I work on the new version.
 
-#Spiral Knights Model Converter Info
+## Spiral Knights Model Converter Info
 
 You can get to my blog to track development here: https://xanthedragon.blogspot.com/
 
@@ -14,29 +14,29 @@ I do not update the code in the repository all too often. Instead, I package sou
 
 Current work status: **Working on fixing bugs.**
 
-#What is Spiral Knights Model Converter?
+## What is Spiral Knights Model Converter?
 Spiral Knights Model Converter is a tool for anyone who wants to animate or 3D print models from Spiral Knights!
 
 The tool is very straightforward and easy to use. It opens 3D Models from Spiral Knights and converts them to a format that tools such as Blender or Autodesk 3DS Max can open for usage in animation / 3D printing.
 
 
-#What can it convert?
+## What can it convert?
  - DAT Directly from the Spiral Knights game files
 
-#What else do you plan on? (Plans for the future)
+## What else do you plan on? (Plans for the future)
  - Referenced models (If a model says "Attach this other model to me!", the code will be able to detect that and will also load the other model) AS OF NOW, ANY REFERENCED MODELS (i.e. loading a knight model) WILL BREAK.
 
-#Special Thanks
+## Special Thanks
  - Grey Havens: You guys are awesome! Thank you **so much** for making your source code open source. I couldn't have done this without you guys.
  - The Spiral Knights community. Some of you guys have been following my topics and giving feedback (More, "I can't wait for this program!") and letting me know that this project matters.
  - People whose libraries I used.
  - Impulse™ ( http://steamcommunity.com/id/ImpulseTru ) for staying with me through out the whole project and being an excellent bug-sniffer.
  - System76 ( http://steamcommunity.com/id/system76 - Private Profile) for helping out with the format. He's helped me understand bones, and we've been working together for a while now.
  
-#Recommended software
+## Recommended software
  - [Spiral Spy](http://spiral.onyxbits.de/download/) - This program uses the same libraries as I do, and is designed for editing/viewing models. This is handy for customizing a model before you pass it through my program.
 
-#Contact me
+## Contact me
 Contacting me is good for clearing up questions.
 
 subzeroxan@gmail.com
