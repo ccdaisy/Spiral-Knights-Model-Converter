@@ -1,7 +1,7 @@
 Readme:
 
 # THIS PROJECT WILL BE MOVING!!!
-**This version of the project is very out of date and poorly constructed. The project has been moved [Here](https://github.com/XanTheDragon/Spiral-Knights-Animator-Tools)**
+**This version of the project is very out of date and poorly constructed. The project has been moved [Here](https://github.com/XanTheDragon/Spiral-Knights-Animator-Tools). Unfortunately, the new version may not yet be released. If there are no published JAR files in the releases, you will have to use this tool.**
 
 ## Spiral Knights Model Converter Info
 
